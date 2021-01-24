@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import CssBaseline from '@material-ui/core/CssBaseline';
+import Container from '@material-ui/core/Container';
+import image from "./img/mobel.png";
+import Deliveries from './Components/Deliveries';
+class App extends Component {
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    carStyle = {
+        top: "720px",
+        left: "100px",
+        position: "absolute"
+    }
+
+    render() {
+        return (<React.Fragment>
+            <CssBaseline />
+            <Container maxWidth="lg">
+                <Deliveries/>
+                <img src={image} style={this.carStyle}/>
+            </Container>
+        </React.Fragment>)
+
+    }
 }
 
 export default App;
