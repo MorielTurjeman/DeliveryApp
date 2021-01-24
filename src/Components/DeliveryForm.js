@@ -16,8 +16,7 @@ class DeliveryForm extends Component {
     style = {
         form : {
             top: "113px",
-            left: "1094px",
-            position: "absolute",
+            position: "relative",
         },
         root: {
           flexGrow: 1

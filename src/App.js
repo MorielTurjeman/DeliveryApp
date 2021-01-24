@@ -6,18 +6,17 @@ import Deliveries from './Components/Deliveries';
 class App extends Component {
 
     carStyle = {
-        top: "720px",
-        left: "100px",
-        position: "absolute"
+        float: "left",
+        left: "10%",
+        top: "-100px",
+        position: "relative",
     }
 
     render() {
         return (<React.Fragment>
             <CssBaseline />
-            <Container maxWidth="lg">
                 <Deliveries/>
                 <img src={image} style={this.carStyle}/>
-            </Container>
         </React.Fragment>)
 
     }

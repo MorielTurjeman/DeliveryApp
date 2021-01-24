@@ -10,12 +10,8 @@ class DeliveryList extends Component {
 
     table = {
         backgroundColor: 'white',
-        position: 'absolute',
+        position: 'relative',
         width: "550px",
-        left: "506px",
-        top: "113px",
-        borderRadius: "10px",
-        overflow:'scroll',
     }
 
     fill = {
@@ -24,7 +20,18 @@ class DeliveryList extends Component {
     }
     
     div = {
-        height: "594px"
+        height: "585px",
+        display: 'block',
+        backgroundColor: "white",
+        left: "100px",
+        top: "113px",
+        position: 'relative',
+        paddingTop: "50px",
+        paddingLeft: "50px",
+        borderRadius: "10px",
+        overflow:'auto',
+        zIndex: '500'
+
     }
 
     render() {

@@ -39,7 +39,7 @@ class DeliveryListItem extends Component {
                     </Fab>
                 </td>
                 <td>
-                    <Fab size="small" color="secondary" aria-label="update" onClick={this.delete}>
+                    <Fab size="small" color="secondary" aria-label="delete" onClick={this.delete}>
                         <Delete />
                     </Fab>
                 </td>

@@ -32,6 +32,7 @@ class Deliveries extends Component {
         width: "1285px",
         left: "323px",
         top: "-3px",
+        float: "right"
     }
 
     
