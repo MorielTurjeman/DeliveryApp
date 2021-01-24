@@ -1,11 +1,9 @@
-import { Block } from '@material-ui/icons';
 import React, { Component } from 'react';
 
 class DeliveryList extends Component {
     constructor(props) {
         super(props);
 
-        console.log(props.children)
     }
 
     table = {

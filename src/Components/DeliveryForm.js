@@ -38,7 +38,6 @@ class DeliveryForm extends Component {
 
     add(e) {
         e.preventDefault();
-        console.log(this.props)
         let delivery = {id: this.props.id,  date: this.props.date, name: this.props.name, city: this.props.city}
 
         this.props.onSave(delivery);

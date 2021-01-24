@@ -52,7 +52,6 @@ class Deliveries extends Component {
     }
 
     addListItem({id=null, date= new Date(), name='default title', city=' defualt title'}){
-        console.log([id, date, name, city])
         this.setState(prevState=>{
             let delivery = prevState.deliveries.find(item => item.id === id)
             
